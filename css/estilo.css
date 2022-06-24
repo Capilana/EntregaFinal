@@ -1,0 +1,34 @@
+.container .nav {
+  width: 90%;
+  background-color: #a269d7;
+  margin: 10px auto; }
+  .container .nav .menu {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end; }
+    .container .nav .menu .boton {
+      padding: 10px;
+      margin: 10px; }
+      .container .nav .menu .boton:hover {
+        background-color: blueviolet; }
+      .container .nav .menu .boton a {
+        text-decoration: none;
+        color: white; }
+        .container .nav .menu .boton a:hover {
+          color: fuchsia;
+          font-weight: bold; }
+
+.main img {
+  width: 500px; }
+
+.main h1 {
+  text-align: center;
+  font-size: 50px;
+  color: blueviolet; }
+
+.main h2 {
+  text-align: center;
+  font-size: 30px;
+  color: black; }
