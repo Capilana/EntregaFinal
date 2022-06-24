@@ -2,26 +2,27 @@
     
     .nav{
         width:90%;
-        background-color: rgb(162, 105, 215);
         margin: 10px auto;
         .menu{
           list-style: none;
           padding: 10px;
           display: flex;
           flex-direction: row;
-          justify-content: end;
+          justify-content: center;
+          align-items: center;
           .boton{
             padding: 10px;
             margin: 10px;
             &:hover{
-                 background-color: blueviolet;
+                 background-color: rgb(151, 104, 195);
+                 color: white;
             }
             a{
                 text-decoration: none;
-                color: white;
+                color:black;
                 &:hover{
-                    color: fuchsia;
                     font-weight: bold;
+                    color: white;
                     }
                 }                 
             }
@@ -30,16 +31,26 @@
 }
 .main {
     img{
-        width: 500px;
+        width: 100%;
         }
-    h1{
+    .h1{
        text-align: center;
        font-size: 50px;
        color: blueviolet;
+       
         }
-    h2{
+    .h2{
         text-align: center;
         font-size: 30px;
         color: black;
     }
+}
+.parrafo{
+    text-align: center;
+}
+.tarjetas{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    
 }

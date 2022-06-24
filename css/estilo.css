@@ -1,34 +1,43 @@
 .container .nav {
   width: 90%;
-  background-color: #a269d7;
   margin: 10px auto; }
   .container .nav .menu {
     list-style: none;
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: end; }
+    justify-content: center;
+    align-items: center; }
     .container .nav .menu .boton {
       padding: 10px;
       margin: 10px; }
       .container .nav .menu .boton:hover {
-        background-color: blueviolet; }
+        background-color: #9768c3;
+        color: white; }
       .container .nav .menu .boton a {
         text-decoration: none;
-        color: white; }
+        color: black; }
         .container .nav .menu .boton a:hover {
-          color: fuchsia;
-          font-weight: bold; }
+          font-weight: bold;
+          color: white; }
 
 .main img {
-  width: 500px; }
+  width: 100%; }
 
-.main h1 {
+.main .h1 {
   text-align: center;
   font-size: 50px;
   color: blueviolet; }
 
-.main h2 {
+.main .h2 {
   text-align: center;
   font-size: 30px;
   color: black; }
+
+.parrafo {
+  text-align: center; }
+
+.tarjetas {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
