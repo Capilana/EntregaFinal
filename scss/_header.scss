@@ -1,0 +1,34 @@
+.container{
+    
+    .nav{
+        width:90%;
+        margin: 10px auto;
+       
+        .menu{
+          list-style: none;
+          font-family: $letraTexto;
+          padding: 10px;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          
+          
+          .boton{
+            padding: 10px;
+            margin: 10px;
+            &:hover{
+                 background-color: rgb(151, 104, 195);
+                 color: white;
+            }
+            a{
+                text-decoration: none;
+                color:black;
+                &:hover{
+                    font-weight: bold;
+                    color: white;
+                    }
+                }                 
+            }
+        }
+    }
+}

@@ -1,54 +1,23 @@
-.container{
-    
-    .nav{
-        width:90%;
-        margin: 10px auto;
-        .menu{
-          list-style: none;
-          padding: 10px;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          .boton{
-            padding: 10px;
-            margin: 10px;
-            &:hover{
-                 background-color: rgb(151, 104, 195);
-                 color: white;
-            }
-            a{
-                text-decoration: none;
-                color:black;
-                &:hover{
-                    font-weight: bold;
-                    color: white;
-                    }
-                }                 
-            }
-        }
-    }
-}
-.main {
-    img{
-        width: 100%;
-        }
-    .h1{
-       text-align: center;
-       font-size: 50px;
-       color: blueviolet;
-       
-        }
-    .h2{
-        text-align: center;
-        font-size: 30px;
-        color: black;
-    }
+$letraTitulo: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$letraTexto:Verdana, Geneva, Tahoma, sans-serif;
+$colorTitulo:blueviolet;
+
+
+@import "header";
+@import "main";
+@import "footer";
+@import "registro";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .parrafo{
     text-align: center;
 }
 .tarjetas{
+
     display: flex;
      align-items: center;
      justify-content: center;
