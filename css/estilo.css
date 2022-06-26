@@ -1,23 +1,23 @@
-.container .nav {
+.contenedor .nav {
   width: 90%;
   margin: 10px auto; }
-  .container .nav .menu {
+  .contenedor .nav .menu {
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end; }
-    .container .nav .menu .boton {
+    .contenedor .nav .menu .boton {
       padding: 10px;
       margin: 10px; }
-      .container .nav .menu .boton:hover {
+      .contenedor .nav .menu .boton:hover {
         background-color: #9768c3;
         color: white; }
-      .container .nav .menu .boton a {
+      .contenedor .nav .menu .boton a {
         text-decoration: none;
         color: black; }
-        .container .nav .menu .boton a:hover {
+        .contenedor .nav .menu .boton a:hover {
           font-weight: bold;
           color: white; }
 
