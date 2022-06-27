@@ -9,6 +9,7 @@ $colorTitulo:blueviolet;
 @import "registro";
 
 
+
 *{
     margin: 0;
     padding: 0;
@@ -23,4 +24,11 @@ $colorTitulo:blueviolet;
      align-items: center;
      justify-content: center;
     
+}
+@media only screen and (min-width:768px){
+    .nav .menu{ 
+
+        flex-direction: column;
+        justify-content: center;
+    }
 }
